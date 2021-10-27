@@ -1,7 +1,7 @@
 - 👋 Hi, I’m Niklas
 - 👀 I’m interested in Cyber-Security and Penetration-Testing
 - 🌱 I’m currently studying at a private college specialized on Information-Technology and -Security
-- 💞️ I’mcurrently not looking to collaborate on anything
+- 💞️ I’m currently not looking to collaborate on anything
 - 📫 You can reach me vie Discord: reloaded#0101
 
 <!---
