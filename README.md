@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @notReloaded
+- 👋 Hi, I’m notReloaded
 - 👀 I’m interested in Cyber-Security and Penetration-Testing
 - 🌱 I’m currently studying at a private college specialized on Information-Technology and -Security
 - 💞️ I’mcurrently not looking to collaborate on anything
