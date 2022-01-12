@@ -4,6 +4,8 @@
 - 💞️ I’m currently not looking to collaborate on anything
 - 📫 You can reach me via Discord: reloaded#0101
 
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=nik-kl)](https://github.com/anuraghazra/github-readme-stats)
+
 <!---
 notReloaded/notReloaded is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
