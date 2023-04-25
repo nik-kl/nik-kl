@@ -3,6 +3,6 @@
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=nik-kl&theme=radical&show_icons=tru)](https://github.com/anuraghazra/github-readme-stats)
 
 ---
-title: "Visitor Count"
+Visitor Count
 ---
 ![Visitor Count](https://profile-counter.glitch.me/nik-kl/count.svg)
