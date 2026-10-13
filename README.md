@@ -1,1 +1,1 @@
-[https://github-stats-extended.vercel.app/api/top-langs?username=nik-kl&layout=compact&langs_count=6&theme=dark](https://github-stats-extended.vercel.app/api/top-langs?username=nik-kl&layout=donut&langs_count=4&theme=dark)
+[![GitHub Stats](https://github-stats-extended.vercel.app/api/top-langs?username=nik-kl&layout=donut&langs_count=4&theme=dark)](https://github-stats-extended.vercel.app/api/top-langs?username=nik-kl&layout=donut&langs_count=4&theme=dark)
