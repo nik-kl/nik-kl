@@ -26,7 +26,7 @@ I read the source code of open-source projects, look for security bugs, report t
 - I only test on my own local setups, never on other people's live systems.
 - Every report comes with steps you can reproduce in a few minutes, and I offer a fix or test your patch if you like.
 - I use AI tools to help me read code and write. Every finding is reproduced by me before I report it.
-- You decide the timeline. I wait for a fix before anything goes public.
+- Maintainers get time to fix things before anything goes public, usually 90 days.
 
 </details>
 
