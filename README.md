@@ -1,15 +1,36 @@
-## Coordinated vulnerability disclosure
+## 🛡️ Coordinated vulnerability disclosure
 
-Independent source-code security research in open-source projects, reported responsibly and fixed in coordination with maintainers.
+I read source code of open-source projects looking for security bugs, report them privately, and help maintainers get them fixed.
+
+![Reported](https://img.shields.io/badge/coordinated_disclosures-14-blueviolet?style=flat-square)
+![Public](https://img.shields.io/badge/public_%2F_fixed-3-brightgreen?style=flat-square)
+![Focus](https://img.shields.io/badge/focus-self--hosted_web_apps-informational?style=flat-square)
 
 | Project | Vulnerability | Severity | Reference | Status |
 | :-- | :-- | :-- | :-- | :-- |
-| [CSCSoftware/AiDex](https://github.com/CSCSoftware/AiDex) (`aidex-mcp`) | OS command injection · CWE-78 | High · 7.8 | [GHSA-xwqr-wrm9-h3jx](https://github.com/advisories/GHSA-xwqr-wrm9-h3jx) | Published · credited reporter · CVE pending |
-| [nemerald-voip/fspbx](https://github.com/nemerald-voip/fspbx) (FS PBX) | Unauthenticated upload + caller-ID · CWE-862/434 | High | [FS PBX 2.2.0](https://github.com/nemerald-voip/fspbx/releases) | Fixed · credited |
-| [outdoorbits/little-backup-box](https://github.com/outdoorbits/little-backup-box) | Unauthenticated OS command injection · CWE-78/306 | Critical · 9.8 | [Fix 2783a83](https://github.com/outdoorbits/little-backup-box/commit/2783a83) | Fixed · advisory pending |
+| [CSCSoftware/AiDex](https://github.com/CSCSoftware/AiDex) (`aidex-mcp`) | OS command injection · CWE-78 | ![High](https://img.shields.io/badge/High-7.8-orange?style=flat-square) | [GHSA-xwqr-wrm9-h3jx](https://github.com/advisories/GHSA-xwqr-wrm9-h3jx) | ![Published](https://img.shields.io/badge/published-blue?style=flat-square) ![CVE](https://img.shields.io/badge/CVE-pending-lightgrey?style=flat-square) |
+| [nemerald-voip/fspbx](https://github.com/nemerald-voip/fspbx) (FS PBX) | Unauthenticated upload + caller-ID · CWE-862/434 | ![High](https://img.shields.io/badge/High-orange?style=flat-square) | [FS PBX 2.2.0](https://github.com/nemerald-voip/fspbx/releases) | ![Fixed](https://img.shields.io/badge/fixed-brightgreen?style=flat-square) ![Credited](https://img.shields.io/badge/credited-brightgreen?style=flat-square) |
+| [outdoorbits/little-backup-box](https://github.com/outdoorbits/little-backup-box) | Unauthenticated OS command injection · CWE-78/306 | ![Critical](https://img.shields.io/badge/Critical-9.8-red?style=flat-square) | [Fix 2783a83](https://github.com/outdoorbits/little-backup-box/commit/2783a83) | ![Fixed](https://img.shields.io/badge/fixed-brightgreen?style=flat-square) ![Advisory](https://img.shields.io/badge/advisory-pending-lightgrey?style=flat-square) |
 
-<sub>Further coordinated disclosures are added here as fixes ship.</sub>
+<sub>More reports are in coordinated disclosure right now. I add them here once a fix is out.</sub>
+
+<sub>Severity: ![Critical](https://img.shields.io/badge/Critical-red?style=flat-square) ![High](https://img.shields.io/badge/High-orange?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-yellow?style=flat-square) ![Low](https://img.shields.io/badge/Low-lightgrey?style=flat-square)</sub>
 
 <br>
 
-Mostly work in Python, C / C++, and JavaScript / TypeScript; auditing across PHP, Node, and others.
+### 🧰 Languages I work and audit in
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+
+<br>
+
+### 🤝 Maintainers
+
+Found your project in my table, or want a second pair of eyes on your auth code? Open an issue on one of my repos or reach me through GitHub. I'm happy to help with fixes and test patches.
