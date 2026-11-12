@@ -9,9 +9,9 @@ I read the source code of open-source projects, look for security bugs, report t
 
 | Project | Vulnerability | Severity | Status | Reference |
 | :-- | :-- | :-: | :-: | :-- |
-| [AiDex](https://github.com/CSCSoftware/AiDex) | OS command injection <sub>CWE-78</sub> | ![High 7.8](https://img.shields.io/badge/High_7.8-orange?style=flat-square) | ![published](https://img.shields.io/badge/published_·_CVE_pending-blue?style=flat-square) | [Advisory ↗](https://github.com/advisories/GHSA-xwqr-wrm9-h3jx) |
-| [FS PBX](https://github.com/nemerald-voip/fspbx) | Unauth file upload + caller-ID <sub>CWE-862/434</sub> | ![High](https://img.shields.io/badge/High-orange?style=flat-square) | ![fixed](https://img.shields.io/badge/fixed_·_credited-brightgreen?style=flat-square) | [Release 2.2.0 ↗](https://github.com/nemerald-voip/fspbx/releases) |
-| [little-backup-box](https://github.com/outdoorbits/little-backup-box) | Unauth OS command injection <sub>CWE-78/306</sub> | ![Critical 9.8](https://img.shields.io/badge/Critical_9.8-red?style=flat-square) | ![fixed](https://img.shields.io/badge/fixed_·_advisory_pending-brightgreen?style=flat-square) | [Fix commit ↗](https://github.com/outdoorbits/little-backup-box/commit/2783a83) |
+| [AiDex](https://github.com/CSCSoftware/AiDex) | OS command injection <sub>CWE-78</sub> | ![High 7.8](https://img.shields.io/badge/High_7.8-orange?style=flat-square) | ![published](https://img.shields.io/badge/published_%C2%B7_CVE_pending-blue?style=flat-square) | [Advisory ↗](https://github.com/advisories/GHSA-xwqr-wrm9-h3jx) |
+| [FS PBX](https://github.com/nemerald-voip/fspbx) | Unauthenticated file upload + caller-ID change <sub>CWE-862/434</sub> | ![High](https://img.shields.io/badge/High-orange?style=flat-square) | ![fixed](https://img.shields.io/badge/fixed_%C2%B7_credited-brightgreen?style=flat-square) | [Release 2.2.0 ↗](https://github.com/nemerald-voip/fspbx/releases) |
+| [little-backup-box](https://github.com/outdoorbits/little-backup-box) | Unauthenticated OS command injection <sub>CWE-78/306</sub> | ![Critical 9.8](https://img.shields.io/badge/Critical_9.8-red?style=flat-square) | ![fixed](https://img.shields.io/badge/fixed_%C2%B7_advisory_pending-brightgreen?style=flat-square) | [Fix commit ↗](https://github.com/outdoorbits/little-backup-box/commit/2783a83) |
 
 <sub>More reports are in coordinated disclosure right now. They show up here once a fix is out. Thanks to every maintainer who took the time to look into a report and ship a fix. 💚</sub>
 
