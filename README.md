@@ -2,7 +2,7 @@
 
 I read the source code of open-source projects, look for security bugs, report them privately, and help maintainers fix them.
 
-![Reported](https://img.shields.io/badge/coordinated_disclosures-14-blueviolet?style=flat-square)
+![Reported](https://img.shields.io/badge/coordinated_disclosures-15-blueviolet?style=flat-square)
 ![Public](https://img.shields.io/badge/public_%2F_fixed-3-brightgreen?style=flat-square)
 ![Focus](https://img.shields.io/badge/focus-self--hosted_web_apps-informational?style=flat-square)
 
