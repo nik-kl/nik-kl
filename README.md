@@ -14,6 +14,8 @@ I read the source code of open-source projects, look for security bugs, report t
 
 <sub>More reports are in coordinated disclosure right now. They show up here once a fix is out. Thanks to every maintainer who took the time to look into a report and ship a fix. 💚</sub>
 
+🏡 More on how I work and what I hold to: **[0w30.uk/research ↗](https://0w30.uk/research)**
+
 <details>
 <summary><b>How I report</b></summary>
 <br>
