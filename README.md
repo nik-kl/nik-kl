@@ -2,6 +2,7 @@
 
 I read the source code of open-source projects, look for security bugs, report them privately, and help maintainers fix them.
 
+<!-- DISCLOSURES:START -->
 ![Reported](https://img.shields.io/badge/coordinated_disclosures-15-blueviolet?style=flat-square)
 ![Public](https://img.shields.io/badge/public_%2F_fixed-3-brightgreen?style=flat-square)
 ![Focus](https://img.shields.io/badge/focus-self--hosted_web_apps-informational?style=flat-square)
@@ -15,6 +16,7 @@ I read the source code of open-source projects, look for security bugs, report t
 <sub>More reports are in coordinated disclosure right now. They show up here once a fix is out. Thanks to every maintainer who took the time to look into a report and ship a fix. 💚</sub>
 
 🏡 More on how I work and what I hold to: **[0w30.uk/research ↗](https://0w30.uk/research)**
+<!-- DISCLOSURES:END -->
 
 <details>
 <summary><b>How I report</b></summary>
