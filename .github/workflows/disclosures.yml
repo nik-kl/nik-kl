@@ -23,6 +23,7 @@ jobs:
             echo "No changes."
             exit 0
           fi
+          git pull
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "Update disclosures from 0w30.uk" -- README.md
