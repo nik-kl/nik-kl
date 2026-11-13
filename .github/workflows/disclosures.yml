@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: disclosures
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -18,13 +22,17 @@ jobs:
         run: python3 .github/scripts/update_disclosures.py
 
       - name: Commit if README changed
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           if git diff --quiet -- README.md; then
             echo "No changes."
             exit 0
           fi
-          git pull
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "Update disclosures from 0w30.uk" -- README.md
-          git push
+          # Commit via the API so GitHub signs it (Verified); the blob sha makes it fail instead of overwriting newer work.
+          sha=$(gh api "repos/$GITHUB_REPOSITORY/contents/README.md?ref=main" --jq .sha)
+          gh api -X PUT "repos/$GITHUB_REPOSITORY/contents/README.md" \
+            -f message="Update disclosures from 0w30.uk" \
+            -f content="$(base64 -w0 README.md)" \
+            -f sha="$sha" \
+            -f branch=main
