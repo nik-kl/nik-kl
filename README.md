@@ -4,13 +4,14 @@ I read the source code of open-source projects, look for security bugs, report t
 
 <!-- DISCLOSURES:START -->
 ![Reported](https://img.shields.io/badge/coordinated_disclosures-18-blueviolet?style=flat-square)
-![Public](https://img.shields.io/badge/public_%2F_fixed-3-brightgreen?style=flat-square)
+![Public](https://img.shields.io/badge/public_%2F_fixed-4-brightgreen?style=flat-square)
 ![Focus](https://img.shields.io/badge/focus-self--hosted_web_apps-informational?style=flat-square)
 
 | Project | Vulnerability | Severity | Status | Reference |
 | :-- | :-- | :-: | :-: | :-- |
 | [little-backup-box](https://github.com/outdoorbits/little-backup-box) | Unauthenticated OS command injection <sub>CWE-78/306</sub> | ![Critical 9.8](https://img.shields.io/badge/Critical_9.8-red?style=flat-square) | ![published](https://img.shields.io/badge/published_%C2%B7_CVE_pending-blue?style=flat-square) | [Advisory ↗](https://github.com/outdoorbits/little-backup-box/security/advisories/GHSA-gfmm-f56r-hjw7) |
 | [AiDex](https://github.com/CSCSoftware/AiDex) | OS command injection <sub>CWE-78</sub> | ![High 7.8](https://img.shields.io/badge/High_7.8-orange?style=flat-square) | ![published](https://img.shields.io/badge/published_%C2%B7_CVE_pending-blue?style=flat-square) | [Advisory ↗](https://github.com/advisories/GHSA-xwqr-wrm9-h3jx) |
+| [zip-lib](https://github.com/fpsqdb/zip-lib) | Path traversal in extract() via symlink chain <sub>CWE-22/59</sub> | ![Medium 6.5](https://img.shields.io/badge/Medium_6.5-yellow?style=flat-square) | ![published](https://img.shields.io/badge/published_%C2%B7_CVE_pending-blue?style=flat-square) | [Advisory ↗](https://github.com/fpsqdb/zip-lib/security/advisories/GHSA-qmrc-492f-w892) |
 | [FS PBX](https://github.com/nemerald-voip/fspbx) | Unauthenticated file write (Polycom log upload) <sub>CWE-306</sub> | ![Medium 6.5](https://img.shields.io/badge/Medium_6.5-yellow?style=flat-square) | ![fixed](https://img.shields.io/badge/fixed_%C2%B7_CVE_requested-brightgreen?style=flat-square) | [Release notes ↗](https://github.com/nemerald-voip/fspbx/blob/v2.2.0/.github/release-notes/v2.2.0.md) |
 
 <sub>More reports are in coordinated disclosure right now. They show up here once a fix is out. Thanks to every maintainer who took the time to look into a report and ship a fix. 💚</sub>
